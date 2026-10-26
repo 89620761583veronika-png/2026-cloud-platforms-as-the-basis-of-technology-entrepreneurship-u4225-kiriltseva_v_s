@@ -1,0 +1,119 @@
+[
+  {
+    "name": "block-storage.svg",
+    "status": 403,
+    "stage": "before_public"
+  },
+  {
+    "name": "file-storage.svg",
+    "status": 403,
+    "stage": "before_public"
+  },
+  {
+    "name": "object-storage.svg",
+    "status": 403,
+    "stage": "before_public"
+  },
+  {
+    "stage": "after_public",
+    "name": "block-storage.svg",
+    "status": 403,
+    "bytes": 416,
+    "content_type": "application/xml; charset=UTF-8",
+    "sha256": "21422ff74c544b69cb1c0d79156e4870c855ce1dfb79c4586c0c00588678e4c8",
+    "matches_original": false
+  },
+  {
+    "stage": "after_public",
+    "name": "file-storage.svg",
+    "status": 403,
+    "bytes": 415,
+    "content_type": "application/xml; charset=UTF-8",
+    "sha256": "77054900cba579ecff04067e4a60455c1d5e05fdca67f7ed981f08ddbd5cec7d",
+    "matches_original": false
+  },
+  {
+    "stage": "after_public",
+    "name": "object-storage.svg",
+    "status": 403,
+    "bytes": 417,
+    "content_type": "application/xml; charset=UTF-8",
+    "sha256": "a88b6316a1f12a3db1ce8189ba17d5ee925b0f0600190cc33fe729549e56465c",
+    "matches_original": false
+  },
+  {
+    "stage": "after_public_confirmed",
+    "name": "block-storage.svg",
+    "status": 200,
+    "bytes": 1573,
+    "content_type": "image/svg+xml",
+    "sha256": "ddef314b18da285baba9132133a4170c5211e1abc522066f4ce7cc15c65dd1d7",
+    "matches_original": true
+  },
+  {
+    "stage": "after_public_confirmed",
+    "name": "file-storage.svg",
+    "status": 200,
+    "bytes": 922,
+    "content_type": "image/svg+xml",
+    "sha256": "ac324dc2d5b6b9edee49f3a525512d7d7455c4fcf690ab661eaf1b59ccadb3b3",
+    "matches_original": true
+  },
+  {
+    "stage": "after_public_confirmed",
+    "name": "object-storage.svg",
+    "status": 200,
+    "bytes": 697,
+    "content_type": "image/svg+xml",
+    "sha256": "cb62a0c1a5b5a75a14f41009ff5b547a09eb44c7c3209fdad504d69cb075f244",
+    "matches_original": true
+  },
+  {
+    "stage": "after_revoke",
+    "name": "block-storage.svg",
+    "status": 200
+  },
+  {
+    "stage": "after_revoke",
+    "name": "file-storage.svg",
+    "status": 200
+  },
+  {
+    "stage": "after_revoke",
+    "name": "object-storage.svg",
+    "status": 200
+  },
+  {
+    "stage": "after_revoke_fresh_url",
+    "name": "block-storage.svg",
+    "status": 403
+  },
+  {
+    "stage": "after_revoke_fresh_url",
+    "name": "file-storage.svg",
+    "status": 403
+  },
+  {
+    "stage": "after_revoke_fresh_url",
+    "name": "object-storage.svg",
+    "status": 403
+  },
+  {
+    "stage": "after_delete_fresh_url",
+    "name": "block-storage.svg",
+    "status": 404,
+    "no_such_bucket": true
+  },
+  {
+    "stage": "after_delete_fresh_url",
+    "name": "file-storage.svg",
+    "status": 404,
+    "no_such_bucket": true
+  },
+  {
+    "stage": "after_delete_fresh_url",
+    "name": "object-storage.svg",
+    "status": 404,
+    "no_such_bucket": true
+  }
+]
